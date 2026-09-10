@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Juan Pérez - Contacto</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 25px 15px;
+            min-height: 100vh;
+
+            font-family: Arial, Helvetica, sans-serif;
+
+            background: #f4f4f4;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+
+            width: 100%;
+            max-width: 430px;
+
+            background: white;
+
+            border-radius: 25px;
+
+            padding: 35px 25px;
+
+            text-align: center;
+
+            box-shadow: 0 10px 35px rgba(0,0,0,0.12);
+        }
+
+        .photo {
+
+            width: 120px;
+            height: 120px;
+
+            border-radius: 50%;
+
+            object-fit: cover;
+
+            margin-bottom: 15px;
+
+            border: 4px solid white;
+
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        h1 {
+
+            margin: 5px 0 5px;
+
+            font-size: 28px;
+
+            color: #222;
+        }
+
+        .company {
+
+            color: #777;
+
+            font-size: 17px;
+
+            margin-bottom: 10px;
+        }
+
+        .description {
+
+            color: #777;
+
+            font-size: 14px;
+
+            line-height: 1.5;
+
+            margin: 15px 10px 25px;
+        }
+
+        /* BOTÓN GUARDAR CONTACTO */
+
+        .save-button {
+
+            display: block;
+
+            width: 100%;
+
+            padding: 16px;
+
+            margin-bottom: 20px;
+
+            background: #000;
+
+            color: white;
+
+            text-decoration: none;
+
+            border-radius: 14px;
+
+            font-size: 17px;
+
+            font-weight: bold;
+        }
+
+        .save-button:hover {
+
+            opacity: 0.85;
+        }
+
+        /* REDES SOCIALES */
+
+        .social-grid {
+
+            display: grid;
+
+            grid-template-columns: 1fr 1fr;
+
+            gap: 12px;
+
+            margin-top: 10px;
+        }
+
+        .social-button {
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            gap: 8px;
+
+            min-height: 55px;
+
+            padding: 12px;
+
+            background: #f1f1f1;
+
+            color: #222;
+
+            text-decoration: none;
+
+            border-radius: 14px;
+
+            font-size: 14px;
+
+            font-weight: bold;
+
+            transition: 0.2s;
+        }
+
+        .social-button:hover {
+
+            transform: translateY(-2px);
+
+            background: #e7e7e7;
+        }
+
+        .icon {
+
+            font-size: 21px;
+        }
+
+        .footer {
+
+            margin-top: 25px;
+
+            color: #999;
+
+            font-size: 12px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <div class="card">
+
+
+        <!-- FOTO DEL CLIENTE -->
+
+        <img
+            src="foto.jpg"
+            alt="Orlando Feliciano"
+            class="photo"
+        >
+
+
+        <!-- NOMBRE -->
+
+        <h1>
+            Orlando Feliciano
+        </h1>
+
+
+        <!-- EMPRESA -->
+
+        <div class="company">
+            WebYa
+        </div>
+
+
+        <!-- DESCRIPCIÓN -->
+
+        <div class="description">
+
+            Profesional especializado en la optimización en ventas
+            para pequeños y medianos negocios por medio de Google SEO y Redes Sociales.
+
+        </div>
+
+
+        <!-- GUARDAR CONTACTO -->
+
+        <a
+            class="save-button"
+            href="contacto.vcf"
+        >
+            📇 GUARDAR CONTACTO
+        </a>
+
+
+        <!-- BOTONES -->
+
+        <div class="social-grid">
+
+
+            <!-- WHATSAPP -->
+
+            <a
+                class="social-button"
+                href="https://wa.me/529844714170"
+                target="_blank"
+            >
+                <span class="icon">💬</span>
+                WhatsApp
+            </a>
+
+
+            <!-- PÁGINA WEB -->
+
+            <a
+                class="social-button"
+                href="https://https://www.webyatech.com.mx"
+                target="_blank"
+            >
+                <span class="icon">🌐</span>
+                Página Web
+            </a>
+
+
+            <!-- INSTAGRAM -->
+
+            <a
+                class="social-button"
+                href="https://www.instagram.com/soyoro33/?utm_source=ig_web_button_share_sheet"
+                target="_blank"
+            >
+                <span class="icon">📷</span>
+                Instagram
+            </a>
+
+
+            <!-- UBICACIÓN -->
+
+            <a
+                class="social-button"
+                href="https://maps.app.goo.gl/1DmVpiR7SBbfytqu9?g_st=ic"
+                target="_blank"
+            >
+                <span class="icon">📍</span>
+                Ubicación
+            </a>
+
+
+            <!-- FACEBOOK -->
+
+            <a
+                class="social-button"
+                href="https://www.facebook.com/profile.php?id=61560387541795"
+                target="_blank"
+            >
+                <span class="icon">f</span>
+                Facebook
+            </a>
+
+
+            <!-- TIKTOK -->
+
+            <a
+                class="social-button"
+                href="www.tiktok.com/@soyoro.33"
+                target="_blank"
+            >
+                <span class="icon">♪</span>
+                TikTok
+            </a>
+
+
+            <!-- BOTÓN PERSONALIZABLE 1 -->
+
+            <a
+                class="social-button"
+                href="https://www.linkedin.com/in/orlando-feliciano-a2761018b/"
+                target="_blank"
+            >
+                <span class="icon">in</span>
+                LinkedIn
+            </a>
+
+
+            <!-- BOTÓN PERSONALIZABLE 2 -->
+
+            <a
+                class="social-button"
+                href="https://www.youtube.com/@OroFeliGar"
+                target="_blank"
+            >
+                <span class="icon">▶</span>
+                YouTube
+            </a>
+
+
+        </div>
+
+
+        <div class="footer">
+
+            Contacto digital
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
